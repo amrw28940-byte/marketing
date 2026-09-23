@@ -1,0 +1,51 @@
+{
+  "Navbar": {
+    "agencyName": "UNIQUE",
+    "agencySub": "Digital Agency",
+    "contactUs": "Contact Us",
+    "searchPlaceholder": "Search for a service (SEO, web design, stores...)",
+    "cancel": "Cancel",
+    "servicesTitle": "Our Professional Services",
+    "mainMenu": "Main Menu",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About Us"
+  },
+  "Hero": {
+    "badge": "Integrated Digital Marketing Agency",
+    "title1": "Transforming your ideas into ",
+    "titleHighlight": "Digital Success",
+    "title2": " That is Real and Measurable",
+    "description": "Combining creativity and data to build your digital presence and deliver your message to the right audience at the right time.",
+    "exploreServices": "Explore Services",
+    "freeConsultation": "Get Free Consultation",
+    "live": "Live",
+    "campaignPerformance": "Campaign Performance - This Month",
+    "organicGrowth": "Increase in Organic Reach",
+    "coreServices": "Core Services",
+    "ads": "Advertising Campaigns",
+    "webDesign": "Web Design & SEO",
+    "socialMedia": "Social Media Management",
+    "completedProjects": "Successful Projects",
+    "tags": ["Ad Campaigns", "Web Design", "E-commerce", "Social Media", "Content Writing"]
+  },
+
+  "AboutSeo": {
+    "badge": "Learn About the Importance of SEO",
+    "p1": "An SEO company specializes in Search Engine Optimization, helping website owners and businesses increase their visibility in search engine results and reach target customers more effectively. With rapid digital development and the spread of digital marketing, SEO has become one of the most vital tools for businesses to increase traffic and drive more sales and profits.",
+    "highlight": "SEO is one of the core pillars of digital success, contributing to improving website rankings in search results—especially Google—and attracting targeted traffic from individuals interested in your services or products.",
+    "btnConsultation": "Get Your Consultation Now",
+    "btnPortfolio": "Explore Our Portfolio"
+  },
+  "PortfolioSection": {
+    "title": "What is an SEO Company?",
+    "description": "An SEO company specializes in search engine optimization, aiming to enhance the visibility of websites in Google search results and reach target customers more effectively. SEO services are core elements of digital marketing strategies, especially with the increasing reliance of companies on search engines to reach their audience and improve rankings.",
+    "subtitle": "Our Digital Achievements Record",
+    "sectionTitle": "A Showcase of Our Successful Projects Engineered for Maximum Search Impact",
+    "visitProject": "Visit Website"
+  }
+
+
+}
