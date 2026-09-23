@@ -148,12 +148,470 @@
     "ctaBtn": "Book Your Free Consultation Now"
   },
   "LiveDashboard": {
-    "badge": "Real-time Monitoring",
-    "title1": "Unmatched ",
-    "titleHighlight": "Technical Performance",
+    "badge": "Integrated Tech Stack",
+    "title1": "Best ",
+    "titleHighlight": "SEO Services Company",
     "title2": "",
-    "desc1": "We are a team of engineers and marketers passionate about building powerful tools.",
-    "desc2": "Our goal is to create the analytics infrastructure we've always wished we had — one that just works."
+    "desc1": "Many website and business owners wonder how to choose the best SEO services company and what services they should provide to ensure improved search engine visibility. In reality, choosing the right SEO company depends not only on the name but on its ability to understand the business nature and devise a strategy tailored to its goals and target audience.",
+    "desc2": "Professional agency services start with website analysis, competitor study, and keyword research, followed by a clear plan to optimize site performance, develop content, perform technical SEO, and build internal and external links according to the site's needs.",
+    "desc3": "It is also recommended when choosing an SEO agency to review their past experiences, the types of projects they've worked on, their result measurement and reporting methods, as well as the clarity of their workflow and expected goals.",
+    "desc4": "As for the SEO expert, they oversee strategy execution, continuously analyze site performance, identify strengths and issues needing improvement, and make necessary adjustments in line with search engine updates and business needs."
+  },
+  "HowToChoose": {
+    "badge": "Selection Criteria",
+    "title1": "How to Choose the ",
+    "titleHighlight": "Best SEO Company",
+    "title2": "?",
+    "intro1": "If you own a business and want to enhance your digital presence and achieve your project's goals, choosing an SEO company in Riyadh (or anywhere else) requires studying a set of important criteria.",
+    "intro2": "The right company's role isn't limited to improving search rankings; they build a comprehensive SEO strategy tailored to your business. Here are the most important criteria to help you choose:",
+    "cards": [
+      {
+        "title": "Setting Goals",
+        "desc": "Before hiring any SEO company, define the goals you want to achieve. Are you looking to increase traffic, enhance brand awareness, or boost conversion rates? Clear goals make it easier to craft a suitable strategy and measure results."
+      },
+      {
+        "title": "Experience and Competence",
+        "desc": "Look for a company with practical experience and past projects. Review the websites they've worked on, request portfolios, and check performance reports, keeping in mind that results vary depending on the industry and site condition."
+      },
+      {
+        "title": "Modern Techniques & Strategies",
+        "desc": "Ensure the company relies on up-to-date SEO practices compliant with search engine guidelines and avoids harmful tactics. This includes content optimization, technical SEO, and natural, well-thought-out link building."
+      },
+      {
+        "title": "Cost vs. Services",
+        "desc": "Budget is important, but price shouldn't be the sole deciding factor. Compare the offered services against the cost, and ensure you understand the package details, included tasks, and reports before signing the contract."
+      },
+      {
+        "title": "Communication and Follow-up",
+        "desc": "Continuous communication is vital for SEO success. Choose a company that provides clear communication channels, regular reports, and is transparent about workflow steps and KPIs so you can track progress."
+      },
+      {
+        "title": "Transparency in Work",
+        "desc": "The company must be clear about its strategy and how results are measured. Avoid agencies that guarantee the #1 spot on Google in a short time; rankings are influenced by many factors and cannot be permanently guaranteed."
+      }
+    ],
+    "ctaTitle": "Ready to work with SEO experts?",
+    "ctaDesc": "Let's build a customized strategy that ensures your website ranks at the top of search engines and turns visitors into loyal customers.",
+    "ctaBtn": "Start Your Success Journey"
+  },
+  "HowWeOptimize": {
+    "badge": "Optimization Process",
+    "title1": "How Do We Optimize Your Site to ",
+    "titleHighlight": "Rank at the Top",
+    "title2": "?",
+    "intro1": "How can your website improve its search visibility and reach target customers? It relies on a comprehensive set of SEO practices starting with site analysis, understanding your business, and continuously executing and evolving an SEO strategy.",
+    "intro2": "There is no guaranteed way to reach the #1 spot on Google, but applying sound SEO practices and continuously improving the site helps raise page quality and increases the chances of appearing in search results.",
+    "steps": [
+      {
+        "title": "High-Quality Content",
+        "desc": "Useful and reliable content is crucial for SEO. It must provide clear answers to users' questions and be relevant to the topic. It's not about length, but providing real value to the visitor."
+      },
+      {
+        "title": "Continuous Content Updates",
+        "desc": "Pages need review and updating periodically, especially when information changes. Updating content helps maintain its accuracy and usefulness based on page performance and search data."
+      },
+      {
+        "title": "Internal & External Links",
+        "desc": "Internal links connect pages and facilitate navigation. External links support content with reliable sources. The strategy also includes acquiring high-quality backlinks naturally and strategically."
+      },
+      {
+        "title": "Site Speed & Performance",
+        "desc": "Speed significantly impacts user experience. We identify and resolve slow page issues by compressing images, reducing unnecessary files, leveraging caching, and improving server performance."
+      },
+      {
+        "title": "Mobile Compatibility",
+        "desc": "Mobile browsing is a core part of user experience. The site must be responsive and user-friendly on mobile devices, ensuring clear text, easy navigation, and fast loading speeds."
+      },
+      {
+        "title": "Keyword Targeting",
+        "desc": "The strategy starts by understanding what your audience is searching for. We analyze keywords, target appropriate pages, and create content that satisfies search intent with natural keyword placement."
+      },
+      {
+        "title": "Local SEO",
+        "desc": "If the business targets customers in a specific area, Local SEO is vital. This includes optimizing your Google Business Profile, unifying business data, and enhancing visibility in location-based searches."
+      }
+    ],
+    "ctaTag": "Comprehensive SEO Strategy",
+    "ctaDesc": "SEO success doesn't depend on a single factor, but a set of interconnected actions. A professional SEO company analyzes the site, identifies opportunities, and sets a measurable plan to track results.",
+    "ctaBtn": "Get a Free Website Audit"
+  },
+  "SeoBenefits": {
+    "badge": "Why Hire Us?",
+    "title1": "Are There Benefits to Hiring a ",
+    "titleHighlight": "Professional SEO Company",
+    "title2": "?",
+    "intro": "Yes, hiring a professional SEO company to manage your website brings numerous advantages and a massive return on investment. Here are the most important benefits:",
+    "benefits": [
+      {
+        "title": "Saving Time & Effort",
+        "desc": "SEO requires extensive research, analysis, and experimentation, and ranking on the first page is never easy."
+      },
+      {
+        "title": "Saving Money",
+        "desc": "Partnering with a professional SEO agency saves you money, as they handle marketing, content strategy, publishing, advertising, and social media marketing."
+      },
+      {
+        "title": "Expertise",
+        "desc": "When you entrust your site to an experienced marketing company, you skip the trial-and-error phase of SEO."
+      },
+      {
+        "title": "Efficiency",
+        "desc": "The best SEO experts can develop and execute search engine optimization strategies rapidly and effectively."
+      },
+      {
+        "title": "Keeping Up with Updates",
+        "desc": "Working with an SEO company helps you avoid costly errors that could halt your site, as they stay updated with all search engine changes."
+      },
+      {
+        "title": "Increasing Sales",
+        "desc": "A core benefit of hiring an SEO agency is driving sales and boosting financial returns once you reach your target audience."
+      }
+    ],
+    "ctaTitle": "Ready to Multiply Your Profits and Sales?",
+    "ctaDesc": "Let our specialized team handle and optimize your website's presence while you focus on growing your business.",
+    "ctaBtn": "Book Your Free Consultation Today"
+  },
+"CommonMistakes": {
+    "badge": "Avoid Common Pitfalls",
+    "title1": "Common Mistakes Avoided by ",
+    "titleHighlight": "Professional SEO Companies",
+    "title2": "",
+    "intro": "There are many erroneous practices that negatively impact search performance and user experience. Professional SEO agencies avoid these pitfalls, relying on sustainable optimization strategies compliant with search guidelines. Here are the key mistakes to avoid:",
+    "mistakes": [
+      {
+        "title": "Keyword Stuffing",
+        "desc": "Excessive keyword repetition makes text unnatural and unreadable. Professionals use terms naturally to satisfy search intent rather than stuffing for rankings."
+      },
+      {
+        "title": "Ignoring User Experience (UX)",
+        "desc": "SEO isn't just about keywords. Websites must be easy to navigate, structured clearly, and responsive to help visitors access information effortlessly."
+      },
+      {
+        "title": "Neglecting Mobile Responsiveness",
+        "desc": "With mobile browsing dominating, sites must adapt seamlessly to all screen sizes with clear text, buttons, and smooth mobile navigation."
+      },
+      {
+        "title": "Weak or Duplicate Content",
+        "desc": "Reproducing competitor content without added value fails the user. The focus must be on original, useful, and reliable content."
+      },
+      {
+        "title": "Neglecting Technical SEO",
+        "desc": "Crawl issues, broken links, and slow speeds ruin site performance regardless of content quality. Technical optimization is foundational."
+      },
+      {
+        "title": "Random Link Building",
+        "desc": "Quantity doesn't beat quality. Relying on low-quality sites or unnatural links harms your domain. Focus must be on relevance and authority."
+      },
+      {
+        "title": "Ignoring Performance Tracking",
+        "desc": "SEO is an ongoing process. Regular data analysis, issue detection, and strategy updates are the secrets to long-term success."
+      }
+    ],
+    "ctaTitle": "Avoid Mistakes and Start the Right Way",
+    "ctaDesc": "Let our experts audit your site and fix any missteps to guarantee authentic top rankings in search engines.",
+    "ctaBtn": "Get a Comprehensive Site Audit Now"
+  },
+  "SeoTips": {
+    "badge": "Digital Success Guide",
+    "title1": "Golden Tips to Improve ",
+    "titleHighlight": "Search Engines",
+    "title2": "",
+    "intro": "Search Engine Optimization (SEO) is an ongoing process aimed at improving visibility, reaching target audiences, and delivering a better user experience. To achieve great results, focus on content, technical setup, and UX.",
+    "tips": [
+      {
+        "title": "Choose Keywords Carefully",
+        "desc": "Study terms your audience searches for, picking keywords that align with your business goals, search intent, and competition levels."
+      },
+      {
+        "title": "Create Original & Useful Content",
+        "desc": "Deliver content that answers user questions and provides real value. Keep it organized, updated, and avoid duplicate content."
+      },
+      {
+        "title": "Optimize Titles & Meta Descriptions",
+        "desc": "Write clear titles and engaging meta descriptions for each page to help users understand content before clicking, avoiding duplication."
+      },
+      {
+        "title": "Focus on Internal Linking",
+        "desc": "Connect related pages using clear internal links to help users discover more content and assist search engines in understanding site structure."
+      },
+      {
+        "title": "Enhance Speed & Performance",
+        "desc": "Monitor page load speed especially on mobile. Improve performance via image compression, file reduction, and proper caching."
+      },
+      {
+        "title": "Ensure Mobile Responsiveness",
+        "desc": "Make sure your pages run smoothly across all screen sizes with clear text, accessible buttons, and a seamless mobile browsing experience."
+      },
+      {
+        "title": "Optimize Images",
+        "desc": "Use quality images while minimizing file sizes. Utilize proper file names and alt text for better performance and accessibility."
+      },
+      {
+        "title": "Fix Technical Issues",
+        "desc": "Audit your site periodically for crawl errors, broken links, and indexing issues to ensure a clear structure for search engines."
+      },
+      {
+        "title": "Build Natural Backlinks",
+        "desc": "Focus on backlink quality and relevance rather than quantity. Avoid spammy tactics and create link-worthy content."
+      },
+      {
+        "title": "Update Old Content",
+        "desc": "Review old articles periodically, update changed information, and add new data to boost performance on search engines."
+      },
+      {
+        "title": "Leverage Local SEO",
+        "desc": "If targeting a specific region, optimize your local search presence, update business listings, and tailor content to the local audience."
+      },
+      {
+        "title": "Track Results & Analyze Data",
+        "desc": "Never guess. Monitor organic traffic, keyword rankings, and conversions using analytical tools to guide your ongoing strategy."
+      }
+    ],
+    "conclusionTitle": "Conclusion",
+    "conclusionText": "SEO doesn't rely on a single action, but an integrated set of practices working together. With continuous analysis and development, your site can build a stronger search presence.",
+    "ctaTitle": "Want to Apply These Tips Professionally?",
+    "ctaDesc": "Let our expert team handle your comprehensive SEO strategy and place you at the top of search engine results.",
+    "ctaBtn": "Start Your Project With Us"
+  },
+  "ExpertVsAgency": {
+    "badge": "Smart Decision Guide",
+    "title1": "Is It Better to Hire an SEO Expert or an ",
+    "titleHighlight": "Agency?",
+    "title2": "",
+    "intro": "When thinking about SEO, you might wonder: is it better to hire a freelance SEO expert or contract with a specialized marketing agency? There is no single answer; choosing the right solution depends on site size, business nature, goals, and budget.",
+    "freelancerTitle": "Hiring a Freelance SEO Expert",
+    "freelancerDesc": "A freelance SEO expert can be suitable for small projects and websites needing specific SEO services, such as site audits, keyword research, content optimization, or fixing technical issues.",
+    "freelancerFeature": "Direct communication and lower cost for limited project scopes.",
+    "agencyTitle": "Hiring an SEO & Marketing Agency",
+    "agencyDesc": "A specialized agency is ideal for sites and projects requiring a comprehensive suite of digital marketing and SEO services, featuring specialists across various fields to handle complex workloads.",
+    "agencyFeature": "Dedicated team, comprehensive strategy, and continuous execution.",
+    "howToChooseTitle": "How to Choose the Right Solution?",
+    "howToChooseDesc": "Before deciding, define your project's needs. If you need a specific task or specialized consultation, a freelancer is practical. If your site requires a full SEO strategy and continuous oversight, an agency is your best bet.",
+    "ctaTitle": "Confused Between a Freelancer and an Agency?",
+    "ctaDesc": "Contact us today, and we will analyze your website to help you choose the ideal strategy for your budget and business goals.",
+    "ctaBtn": "Consult Our Experts For Free"
+  },
+  "SeoCost": {
+    "badge": "Smart Investment & ROI",
+    "title1": "Cost of the Best ",
+    "titleHighlight": "SEO Services Company",
+    "title2": "",
+    "intro": "SEO service costs vary from one company to another, and a fixed price cannot fit all websites. Costs depend on factors such as site size, business nature, competition level, target keywords, and technical site condition.",
+    "packagesInfo": "An SEO package typically includes site and competitor analysis, keyword research, content optimization, technical SEO, internal/external link building, local SEO, and regular reporting.",
+    "adviceTitle": "Advice Before Making a Decision",
+    "adviceDesc": "When comparing company offers, don't rely on price alone. Compare services versus cost, workflow clarity, and team expertise. Always request a detailed proposal outlining the scope of work and expected timeline.",
+    "faqTitle": "Does a Higher Price Mean Better Results?",
+    "faqDesc": "Not necessarily. High costs don't automatically guarantee better results, and the cheapest offer isn't always right. The key is a clear strategy and value matching your site's needs, not just price.",
+    "ctaTitle": "Get a Custom Pricing Quote for Your Site",
+    "ctaDesc": "Tell us about your business details, and we will prepare a comprehensive action plan and a competitive quote matching your budget.",
+    "ctaBtn": "Get Your Quote Now"
+  },
+  "SeoServicesTable": {
+    "badge": "Our Comprehensive Services",
+    "title1": "Search Engine Optimization ",
+    "titleHighlight": "SEO Services",
+    "title2": "",
+    "intro": "We offer an integrated suite of SEO services, starting with site and competitor analysis, followed by on-page and technical optimization, off-page visibility, and continuous performance tracking through regular reports.",
+    "colService": "Service / Report",
+    "colStatus": "Status",
+    "section1": "Site Audit SEO Audit",
+    "auditItems": [
+      "Conducting a comprehensive site audit before starting the SEO strategy",
+      "Analyzing site visibility in SERP search results",
+      "Studying and analyzing competitors in search engines",
+      "Analyzing current page performance and identifying improvement opportunities",
+      "Researching primary and secondary keywords",
+      "Discovering duplicate content and resolving related issues",
+      "Reviewing actions and issues affecting site visibility",
+      "Analyzing backlink profiles and identifying low-quality links",
+      "Identifying major technical issues that need resolution"
+    ],
+    "section2": "On-Page & Technical SEO Optimization",
+    "onpageItems": [
+      "Reviewing main headings and subheadings of content",
+      "Optimizing Meta Title for site pages",
+      "Writing and optimizing Meta Description",
+      "Optimizing images and Alt Text",
+      "Improving and developing page content",
+      "Optimizing URL structure",
+      "Improving site structure and ease of navigation",
+      "Detecting and fixing broken links",
+      "Analyzing and improving site speed and performance",
+      "Reviewing crawling and indexing issues",
+      "Handling 404 not found page errors",
+      "Creating or optimizing Robots.txt file",
+      "Creating, optimizing, and managing XML Sitemap",
+      "Improving internal linking between pages",
+      "Ensuring site compatibility with various mobile devices",
+      "Optimizing Permanent Links (Permalinks) structure",
+      "Developing an internal linking strategy",
+      "Connecting the site to Google Search Console",
+      "Setting up and connecting appropriate webmaster tools",
+      "Connecting the site to Google Analytics",
+      "Setting up and optimizing Structured Data when needed",
+      "Creating a blog or section for the site when needed",
+      "Preparing and publishing blog content according to SEO plan"
+    ],
+    "section3": "Off-Page SEO Visibility",
+    "offpageItems": [
+      "Improving site discoverability through search engines",
+      "Publishing specialized content supporting the site strategy",
+      "Preparing keyword-optimized content",
+      "Building relevant backlinks strategically",
+      "Improving Anchor Text quality and diversity",
+      "Enhancing brand presence across appropriate platforms",
+      "Sharing content across relevant digital channels",
+      "Enhancing local business visibility when needed",
+      "Creating and optimizing Google Business Profile",
+      "Optimizing business details like name, address, and phone number",
+      "Preparing visual content like video when needed",
+      "Tracking opportunities to earn mentions and links from relevant sites"
+    ],
+    "section4": "Monthly Reports & Monitoring",
+    "reportItems": [
+      "Monthly performance report in search engines",
+      "Target keywords ranking and visibility progress report",
+      "Organic traffic performance and key pages analysis report",
+      "Executed On-Page and Technical SEO report",
+      "Off-Page SEO and acquired backlinks report",
+      "Identifying top improvement opportunities and next steps"
+    ],
+    "ctaHeading": "Start Optimizing Your Site with a Comprehensive SEO Strategy",
+    "ctaText1": "After exploring key SEO aspects, you can start analyzing your site, identifying strengths, issues, and available opportunities.",
+    "ctaText2": "We help you build an SEO strategy tailored to your business goals—starting from site analysis, keywords, and competitors, through technical improvements and content, up to continuous performance tracking.",
+    "ctaBtn": "Contact Us for an SEO Consultation"
+  },
+  "FaqSection": {
+    "badge": "Frequently Asked Questions",
+    "title1": "Everything You Need to Know About ",
+    "titleHighlight": "SEO Services",
+    "title2": "",
+    "intro": "Here are comprehensive answers to all questions regarding search engine optimization, results, costs, and workflow.",
+    "searchPlaceholder": "Search for your question here (e.g., duration, cost, top rank...)",
+    "noResults": "No matching questions found. Feel free to contact us directly!",
+    "faqs": [
+      {
+        "q": "What are SEO services?",
+        "a": "SEO services are a set of actions aimed at improving website visibility in search engines, including content optimization, keywords, technical aspects, site speed, internal linking, and external backlinks."
+      },
+      {
+        "q": "Why do I need SEO services?",
+        "a": "SEO helps increase the chances of your site appearing to people searching for your products or services, driving more targeted traffic."
+      },
+      {
+        "q": "How long do SEO results take to show?",
+        "a": "The timeframe varies from site to site based on site condition, competition, niche, content quality, and implemented updates. There is no fixed duration applicable to all sites."
+      },
+      {
+        "q": "Can an SEO company guarantee the #1 spot on Google?",
+        "a": "No one can guarantee the #1 spot because rankings depend on multiple algorithms that change over time. A professional agency sets a strategy, monitors data, and continuously improves site performance."
+      },
+      {
+        "q": "What is the difference between On-Page and Off-Page SEO?",
+        "a": "On-Page SEO involves optimizing site elements like content, titles, internal links, and technical structure. Off-Page SEO focuses on external factors like backlinks and brand mentions."
+      },
+      {
+        "q": "Do SEO services include content writing?",
+        "a": "SEO services can include preparing and optimizing content tailored to search intent and target keywords, focusing on delivering useful and relevant value."
+      },
+      {
+        "q": "Is SEO suitable for new websites?",
+        "a": "Yes, SEO can start right from launch by building a proper technical structure, selecting keywords, and organizing content and pages."
+      },
+      {
+        "q": "Can an existing site be optimized without a redesign?",
+        "a": "In many cases, SEO improvements can be implemented on the current site without a full redesign, following a technical audit and structure review."
+      },
+      {
+        "q": "Do SEO services include site speed optimization?",
+        "a": "Yes, SEO strategy typically reviews site performance and speed, identifying technical issues affecting user experience."
+      },
+      {
+        "q": "Do SEO services include mobile optimization?",
+        "a": "Yes, mobile responsiveness is reviewed because mobile user experience is a core part of site quality."
+      },
+      {
+        "q": "What is the importance of keywords in SEO?",
+        "a": "Keywords help understand what audiences search for, shaping content strategy and page optimization to match search intent."
+      },
+      {
+        "q": "Can multiple keywords be targeted simultaneously?",
+        "a": "Yes, you can target a set of keywords and topics, distributing them across appropriate pages rather than stuffing them into a single page."
+      },
+      {
+        "q": "Do you provide reports on SEO results?",
+        "a": "Yes, periodic reports show keyword ranking progress, organic traffic performance, executed improvements, and future recommendations."
+      },
+      {
+        "q": "Do SEO services include Google Search Console and Google Analytics?",
+        "a": "Yes, sites are connected to analytical tools like Google Search Console and Google Analytics to leverage traffic and behavioral data."
+      },
+      {
+        "q": "Is SEO only for corporate and e-commerce sites?",
+        "a": "No, SEO applies to various site types including companies, e-commerce, service sites, blogs, news portals, and local projects."
+      },
+      {
+        "q": "What is the cost of SEO services?",
+        "a": "Cost varies based on site size, page count, competition level, technical state, target keywords, and scope of services required. Pricing is determined after an initial audit."
+      },
+      {
+        "q": "Can site analysis begin before subscribing to an SEO plan?",
+        "a": "Yes, an initial audit identifies key issues and opportunities before building a tailored SEO plan."
+      },
+      {
+        "q": "Do SEO results persist after stopping work?",
+        "a": "Some gains persist, but SEO requires ongoing maintenance due to shifting competition and algorithm changes, making periodic reviews essential."
+      }
+    ],
+    "ctaTitle": "Have another question not answered here?",
+    "ctaDesc": "Our engineering and marketing team is ready to answer your inquiries and offer a free site consultation.",
+    "ctaBtn": "Contact Us Now"
+  },
+  "GeoKeywords": {
+    "badge": "Our Geographic Reach",
+    "title1": "Our Services Across ",
+    "titleHighlight": "Countries & Cities",
+    "title2": "",
+    "intro": "We provide professional SEO and web design services across various regional and local markets with high efficiency and absolute professionalism.",
+    "items": [
+      { "name": "SEO Company Saudi Arabia", "slug": "SEOCompanySaudiArabia" },
+      { "name": "SEO Company in Riyadh", "slug": "SEOcompanyinRiyadh" },
+      { "name": "SEO Company Jeddah", "slug": "seocompanyjeddah" },
+      { "name": "SEO Company UAE", "slug": "SEOCompanyUAE" },
+      { "name": "SEO Company Sharjah", "slug": "SEOCompanySharjah" },
+      { "name": "SEO Company Dubai", "slug": "SEOCompanyDubai" },
+      { "name": "SEO Company Kuwait", "slug": "SEOCompanyKuwait" },
+      { "name": "SEO Company Egypt", "slug": "SEOCompanyEgypt" },
+      { "name": "SEO Company Alexandria", "slug": "SEOCompanyAlexandria" },
+      { "name": "SEO Company Cairo", "slug": "SEOCompanyCairo" },
+      { "name": "Website Design Company Saudi Arabia", "slug": "WebsiteDesignCompanySaudiArabia" },
+      { "name": "Website Design Company Riyadh", "slug": "WebsiteDesignCompanyRiyadh" },
+      { "name": "Website Design Company Jeddah", "slug": "WebsiteDesignCompanyJeddah" },
+      { "name": "Website Design Company Kuwait", "slug": "WebsiteDesignCompanyKuwait" },
+      { "name": "Website Design Company UAE", "slug": "WebsiteDesignCompanyUAE" },
+      { "name": "Website Design Company Sharjah", "slug": "WebsiteDesignCompanySharjah" },
+      { "name": "Website Design Company Dubai", "slug": "WebsiteDesignCompanyDubai" },
+      { "name": "Website Design Company Egypt", "slug": "WebsiteDesignCompanyEgypt" },
+      { "name": "Website Design Company Alexandria", "slug": "WebsiteDesignCompanyAlexandria" },
+      { "name": "Website Design Company Cairo", "slug": "WebsiteDesignCompanyCairo" }
+    ]
+  },
+  "Footer": {
+    "agencyName": "UNIQUE",
+    "agencyDesc": "An integrated digital agency for SEO, web design, and digital marketing, helping you achieve a sustainable digital presence and top search rankings.",
+    "email": "contact@unique-agency.dev",
+    "phone": "+20 120 000 0000",
+    "quickLinksTitle": "Quick Links",
+    "servicesTitle": "Our Services",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contactUs": "Contact Us",
+    "seoService": "Search Engine Optimization (SEO)",
+    "webDesign": "Web Design & Development",
+    "socialMedia": "Social Media Management",
+    "marketing": "Advertising Campaigns",
+    "rights": "All rights reserved © 2026 UNIQUE Digital Agency."
   }
 
 }

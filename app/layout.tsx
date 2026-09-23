@@ -3,6 +3,7 @@ import { Cairo } from "next/font/google";
 import "./globals.css";
 import Snow from "@/components/Snow";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const cairo = Cairo({
   subsets: ["arabic"],
@@ -52,17 +53,16 @@ export default function RootLayout({
     <html 
       lang="ar" 
       dir="rtl" 
-      className={`h-full ${cairo.variable}`}
+      className={cairo.variable}
       data-scroll-behavior="smooth"
     >
-      <body className={`h-full min-h-screen bg-[#000000] text-white flex flex-col justify-between selection:bg-yellow-400 selection:text-[#000000] ${cairo.className} antialiased`}>
-        <div className="flex flex-col min-h-screen relative overflow-x-hidden">
-          <Snow /> 
-          <Navbar />
-          <main className="flex-grow">
-            {children}
-          </main>
-        </div>
+      <body className={`bg-[#000000] text-white selection:bg-yellow-400 selection:text-[#000000] ${cairo.className} antialiased overflow-x-hidden`}>
+        <Snow /> 
+        <Navbar />
+        <main className="w-full">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
