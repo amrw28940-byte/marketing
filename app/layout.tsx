@@ -13,15 +13,41 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "Unique | وكالة التسويق الإلكتروني وتحسين محركات البحث",
-  description: "وكالة رقمية متكاملة لخدمات السيو، تصميم المواقع، وإدارة السوشيال ميديا.",
+  title: "شركة سيو خدمات تحسين محركات البحث SEO | Unique",
+  description: "شركة سيو متخصصة في تحسين محركات البحث SEO، نساعدك على تحسين ترتيب موقعك في جوجل، زيادة الزيارات المستهدفة والوصول إلى عملاء جدد.",
+  keywords: ["سيو", "تصميم مواقع", "تسويق رقمي", "وكالة تسويق", "SEO Agency", "Digital Agency"],
+  authors: [{ name: "UNIQUE Digital Agency" }],
+  publisher: "UNIQUE",
+  metadataBase: new URL("https://marketing-beta-gold-30.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "شركة سيو خدمات تحسين محركات البحث SEO | Unique",
+    description: "شركة سيو متخصصة في تحسين محركات البحث SEO، نساعدك على تحسين ترتيب موقعك في جوجل، زيادة الزيارات المستهدفة والوصول إلى عملاء جدد.",
+    url: "https://marketing-beta-gold-30.vercel.app",
+    siteName: "Unique Agency",
+    locale: "ar_AR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html 
       lang="ar" 

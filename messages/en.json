@@ -45,7 +45,115 @@
     "subtitle": "Our Digital Achievements Record",
     "sectionTitle": "A Showcase of Our Successful Projects Engineered for Maximum Search Impact",
     "visitProject": "Visit Website"
+  },
+  "SeoTasks": {
+    "subtitle": "Tasks & Workflow",
+    "title1": "What are the core tasks of ",
+    "titleHighlight": "SEO",
+    "title2": " agencies?",
+    "desc1": "SEO agencies help websites attract more targeted traffic and improve sales opportunities through specialized strategies aimed at understanding how search engines work, analyzing user behavior, and meeting the target audience's needs.",
+    "desc2": "Search engine optimization services cover many aspects. Below are the most important tasks and fundamentals our strategy relies on:",
+    "tasks": [
+      {
+        "id": "01",
+        "title": "Keywords Research",
+        "desc": "Keywords are a fundamental element of any SEO strategy, identifying the terms your target audience uses when searching for products or services. An SEO expert analyzes these terms for search volume, competition, and relevance, then distributes them naturally within the content."
+      },
+      {
+        "id": "02",
+        "title": "High-Quality Content",
+        "desc": "High-quality content is a major factor in SEO success. SEO agencies focus on creating useful, reliable content that meets the target audience's needs and provides clear answers to the questions users are searching for."
+      },
+      {
+        "id": "03",
+        "title": "Technical SEO",
+        "desc": "Technical SEO involves optimizing the website's technical infrastructure to facilitate crawling and indexing by search engines. This includes improving page load speed, ensuring mobile compatibility, fixing crawl errors, and organizing internal links."
+      },
+      {
+        "id": "04",
+        "title": "Strategic Planning",
+        "desc": "A successful SEO strategy requires a clear plan based on specific goals. An SEO expert starts by analyzing the website, competitors, and target audience, then develops an action plan tailored to the business nature, budget, and desired objectives."
+      },
+      {
+        "id": "05",
+        "title": "Innovation & Updates",
+        "desc": "Search engines evolve constantly, as does the way websites are evaluated. Therefore, an SEO strategy requires continuous review and updating to keep pace with new changes and Google algorithm updates."
+      },
+      {
+        "id": "06",
+        "title": "Proper Keyword Placement",
+        "desc": "Using keywords isn't limited to articles; they must be strategically placed across different pages. The target keyword for each page is identified and naturally integrated into the main heading, meta description, and content."
+      },
+      {
+        "id": "07",
+        "title": "Image Optimization",
+        "desc": "Images play a crucial role in user experience. Image optimization includes choosing relevant images, compressing their size without sacrificing quality, and using appropriate file names and alt text to improve page performance."
+      },
+      {
+        "id": "08",
+        "title": "Backlink Building",
+        "desc": "Backlinks are links your website receives from other sites. The focus is on acquiring relevant and authoritative links naturally, prioritizing link quality over quantity to avoid harming the website's performance."
+      },
+      {
+        "id": "09",
+        "title": "Internal Links",
+        "desc": "Internal links connect pages within the same website, helping users navigate content easily. They also assist search engines in discovering pages and understanding the relationship between different parts of the site."
+      }
+    ],
+    "conclusion1": "",
+    "conclusionHighlight": "Unique",
+    "conclusion2": " agency implements a comprehensive set of procedures, starting from keyword research and competitor analysis, through content and technical optimization, to link building and internal structure enhancement.",
+    "conclusion3": "The goal is not just to rank high on Google, but to build a useful, user-friendly website capable of attracting targeted traffic and converting it into real growth opportunities."
+  },
+  "WhySeo": {
+    "badge": "Importance of SEO",
+    "title1": "Why Do You Need an ",
+    "titleHighlight": "SEO Company",
+    "title2": "?",
+    "intro": "Search Engine Optimization (SEO) has become a crucial tool for businesses aiming to enhance their digital presence, reach their target audience, and increase traffic and potential clients. With a well-thought-out SEO strategy, a website can improve its search visibility and build a sustainable digital footprint.",
+    "cards": [
+      {
+        "id": "1",
+        "title": "Top Search Engine Rankings",
+        "desc": "A primary goal of SEO is to rank your web pages higher in search results for keywords related to your business. Improving site ranking naturally increases the chances of interested users finding your products or services."
+      },
+      {
+        "id": "2",
+        "title": "Search Engine Marketing",
+        "desc": "SEO is a digital marketing method that attracts targeted traffic. Unlike paid ad campaigns that stop yielding results once the budget runs out, SEO efforts continue to drive traffic as long as content quality is maintained."
+      },
+      {
+        "id": "3",
+        "title": "Building Trust with Customers",
+        "desc": "Prominent visibility in search results enhances brand presence. Additionally, a well-organized website with useful content and good user experience contributes to a more professional image for your business."
+      },
+      {
+        "id": "4",
+        "title": "Reaching the Target Audience",
+        "desc": "A specialized SEO strategy targets individuals actively searching for what you offer. This is achieved by studying keywords, understanding search intent, and optimizing pages for specific audience needs and locations."
+      },
+      {
+        "id": "5",
+        "title": "Improving User Experience",
+        "desc": "SEO isn't just about rankings; it includes factors affecting visitor experience, like page load speed, mobile compatibility, and easy navigation. A good user experience increases the likelihood of visitors becoming customers."
+      },
+      {
+        "id": "6",
+        "title": "Supporting Sales & Profit Growth",
+        "desc": "SEO increases targeted traffic, providing more opportunities to acquire customers and generate sales. For ad-reliant sites, qualified traffic boosts the chances of higher ad revenue."
+      }
+    ],
+    "ctaTitle": "Do You Really Need an SEO Company?",
+    "ctaDesc": "Every business's need for SEO varies based on goals, competition, current website status, and available resources. A good strategy starts with analyzing the site, competitors, and keywords to identify actions that deliver long-term value.",
+    "ctaBtn": "Book Your Free Consultation Now"
+  },
+  "LiveDashboard": {
+    "badge": "Real-time Monitoring",
+    "title1": "Unmatched ",
+    "titleHighlight": "Technical Performance",
+    "title2": "",
+    "desc1": "We are a team of engineers and marketers passionate about building powerful tools.",
+    "desc2": "Our goal is to create the analytics infrastructure we've always wished we had — one that just works."
   }
-
 
 }

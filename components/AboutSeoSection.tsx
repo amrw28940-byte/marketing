@@ -57,6 +57,7 @@ export default function AboutSeoSection() {
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               <Link
                 href="/contact"
+                title={t.AboutSeo.btnConsultation}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#F5BD02] text-black font-bold text-base shadow-[0_0_25px_rgba(245,189,2,0.5)] hover:bg-yellow-400 hover:scale-105 transition-all text-center border border-[#F5BD02]"
               >
                 {t.AboutSeo.btnConsultation}
@@ -64,6 +65,7 @@ export default function AboutSeoSection() {
 
               <Link
                 href="/portfolio"
+                title={t.AboutSeo.btnPortfolio}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-black/60 border-2 border-[#F5BD02]/60 text-[#F5BD02] font-bold text-base hover:bg-[#F5BD02]/20 hover:border-[#F5BD02] transition-all text-center backdrop-blur-md"
               >
                 {t.AboutSeo.btnPortfolio}
@@ -78,6 +80,7 @@ export default function AboutSeoSection() {
               <Image
                 src="/AboutSeoSection.webp"
                 alt="About SEO Section"
+                title="About SEO Section"
                 fill
                 className="object-cover group-hover:scale-105 transition duration-500"
                 priority

@@ -81,6 +81,7 @@ export default function HeroSection() {
               
               <Link
                 href="/portfolio"
+                title={t.Hero.exploreServices}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#F5BD02] text-black font-bold text-base shadow-[0_0_20px_rgba(245,189,2,0.4)] hover:shadow-[0_0_30px_rgba(245,189,2,0.8)] hover:scale-105 transition-all duration-300 text-center border border-[#F5BD02]"
               >
                 {t.Hero.exploreServices}
@@ -88,6 +89,7 @@ export default function HeroSection() {
 
               <Link
                 href="/contact"
+                title={t.Hero.freeConsultation}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-black/60 border border-[#F5BD02]/60 text-[#F5BD02] font-bold text-base hover:bg-[#F5BD02]/20 hover:border-[#F5BD02] transition-all duration-300 text-center shadow-[0_0_15px_rgba(245,189,2,0.2)] backdrop-blur-md"
               >
                 {t.Hero.freeConsultation}

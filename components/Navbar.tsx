@@ -38,7 +38,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full bg-[#000000]/95 border-b border-[#F5BD02]/40 backdrop-blur-md shadow-[0_4px_30px_rgba(245,189,2,0.15)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        {/* اليسار: الأيقونات (همبرجر، زر اللغة، اتصل بنا، بحث) */}
+        {/* اليسار: الأيقونات (همبرجر، لغة، سوشيال، اتصل بنا، بحث) */}
         <div className="flex items-center gap-3 sm:gap-4">
           
           {/* زر الهمبرجر */}
@@ -61,7 +61,31 @@ export default function Navbar() {
             )}
           </button>
 
-          {/* زر تبديل اللغة الشيك والمميز */}
+          {/* أيقونات السوشيال ميديا الفاخرة (تظهر على الشاشات المتوسطة والكبيرة) */}
+          <div className="hidden lg:flex items-center gap-2 px-2 border-x border-[#F5BD02]/20">
+            {/* فيسبوك */}
+            <a href="https://www.facebook.com/uniquews" target="_blank" rel="noopener noreferrer" title="Facebook - Unique Agency" 
+               className="w-9 h-9 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02] hover:bg-[#F5BD02] hover:text-black hover:scale-110 transition-all duration-300 shadow-[0_0_10px_rgba(245,189,2,0.2)] hover:shadow-[0_0_20px_rgba(245,189,2,0.6)]">
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg>
+            </a>
+            {/* لينكد إن */}
+            <a href="http://linkedin.com/in/ghada-salem-51b146153" target="_blank" rel="noopener noreferrer" title="LinkedIn" 
+               className="w-9 h-9 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02] hover:bg-[#F5BD02] hover:text-black hover:scale-110 transition-all duration-300 shadow-[0_0_10px_rgba(245,189,2,0.2)] hover:shadow-[0_0_20px_rgba(245,189,2,0.6)]">
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            {/* يوتيوب */}
+            <a href="https://www.youtube.com/@alwaleedhost3388" target="_blank" rel="noopener noreferrer" title="YouTube Channel" 
+               className="w-9 h-9 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02] hover:bg-[#F5BD02] hover:text-black hover:scale-110 transition-all duration-300 shadow-[0_0_10px_rgba(245,189,2,0.2)] hover:shadow-[0_0_20px_rgba(245,189,2,0.6)]">
+              <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33 2.78 2.78 0 001.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.33 29 29 0 00-.46-5.33z"></path><path d="M9.75 15.02l5.75-3.27-5.75-3.27v6.54z"></path></svg>
+            </a>
+            {/* واتساب */}
+            <a href="https://wa.me/201270506511" target="_blank" rel="noopener noreferrer" title="WhatsApp Contact" 
+               className="w-9 h-9 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02] hover:bg-[#F5BD02] hover:text-black hover:scale-110 transition-all duration-300 shadow-[0_0_10px_rgba(245,189,2,0.2)] hover:shadow-[0_0_20px_rgba(245,189,2,0.6)]">
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </a>
+          </div>
+
+          {/* زر تبديل اللغة */}
           <button
             onClick={toggleLanguage}
             className="px-3 py-2 rounded-xl bg-[#000000] border border-[#F5BD02]/50 text-[#F5BD02] text-xs font-bold hover:bg-[#F5BD02]/20 transition flex items-center gap-1.5 shadow-[0_0_10px_rgba(245,189,2,0.2)]"
@@ -74,6 +98,7 @@ export default function Navbar() {
           {/* زر "اتصل بنا" السريع */}
           <Link
             href="/contact"
+            title={t.Navbar.contactUs}
             className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#000000] border border-[#F5BD02]/50 text-[#F5BD02] text-sm font-semibold hover:bg-[#F5BD02]/20 transition shadow-[0_0_15px_rgba(245,189,2,0.2)]"
           >
             <span className="text-[#F5BD02]">{locale === "ar" ? "←" : "→"}</span>
@@ -87,6 +112,7 @@ export default function Navbar() {
               if (isMenuOpen) setIsMenuOpen(false);
             }}
             aria-label="بحث في الموقع"
+            title="البحث"
             className="p-2 rounded-xl bg-[#000000] border border-[#F5BD02]/50 text-[#F5BD02] hover:bg-[#F5BD02]/10 transition flex items-center justify-center shadow-[0_0_10px_rgba(245,189,2,0.2)]"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +123,7 @@ export default function Navbar() {
         </div>
 
         {/* اليمين: اللوجو المُكبّر مع التوهج الناعم */}
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link href="/" title={t.Navbar.agencyName} className="flex items-center gap-3 group">
           <div className="text-right hidden sm:block">
             <span className="block text-xs text-[#F5BD02] font-bold tracking-widest">{t.Navbar.agencyName}</span>
             <span className="block text-[10px] text-gray-300">{t.Navbar.agencySub}</span>
@@ -106,6 +132,7 @@ export default function Navbar() {
             <Image
               src="/logo.webp"
               alt="Unique Agency Logo"
+              title="Unique Agency Logo"
               fill
               className="object-cover"
               priority
@@ -124,11 +151,13 @@ export default function Navbar() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t.Navbar.searchPlaceholder}
+              title={t.Navbar.searchPlaceholder}
               className="w-full px-5 py-3 rounded-xl bg-[#000000] border border-[#F5BD02]/50 text-white placeholder-gray-400 focus:outline-none focus:border-[#F5BD02] shadow-inner text-sm"
               autoFocus
             />
             <button
               onClick={() => setIsSearchOpen(false)}
+              title={t.Navbar.cancel}
               className="px-6 py-3 rounded-xl bg-[#F5BD02] text-black font-bold text-sm hover:bg-yellow-400 transition shadow-[0_0_20px_rgba(245,189,2,0.5)]"
             >
               {t.Navbar.cancel}
@@ -153,6 +182,7 @@ export default function Navbar() {
                   <Link
                     key={service.slug}
                     href={`/services/${service.slug}`}
+                    title={service.name}
                     onClick={() => setIsMenuOpen(false)}
                     className="p-3 rounded-xl bg-[#000000] border border-[#F5BD02]/30 text-gray-200 hover:text-[#F5BD02] hover:border-[#F5BD02] transition flex items-center justify-between group shadow-sm"
                   >
@@ -171,42 +201,59 @@ export default function Navbar() {
               </h3>
               <ul className="space-y-3 font-semibold">
                 <li>
-                  <Link href="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/" title={t.Navbar.home} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.home}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/portfolio" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/portfolio" title={t.Navbar.portfolio} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.portfolio}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/projects" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/projects" title={t.Navbar.projects} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.projects}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/blog" title={t.Navbar.blog} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.blog}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/contact" title={t.Navbar.contactUs} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.contactUs}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
+                  <Link href="/about" title={t.Navbar.about} onClick={() => setIsMenuOpen(false)} className="flex items-center gap-3 text-gray-200 hover:text-[#F5BD02] transition py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#F5BD02]"></span>
                     {t.Navbar.about}
                   </Link>
                 </li>
               </ul>
+              
+              {/* أيقونات السوشيال ميديا للموبايل داخل القائمة */}
+              <div className="mt-8 flex lg:hidden items-center gap-3">
+                <a href="https://www.facebook.com/uniquews" target="_blank" rel="noopener noreferrer" title="Facebook - Unique Agency" className="w-10 h-10 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02]">
+                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg>
+                </a>
+                <a href="http://linkedin.com/in/ghada-salem-51b146153" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="w-10 h-10 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02]">
+                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://www.youtube.com/@alwaleedhost3388" target="_blank" rel="noopener noreferrer" title="YouTube Channel" className="w-10 h-10 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02]">
+                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33 2.78 2.78 0 001.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.33 29 29 0 00-.46-5.33z"></path><path d="M9.75 15.02l5.75-3.27-5.75-3.27v6.54z"></path></svg>
+                </a>
+                <a href="https://wa.me/201270506511" target="_blank" rel="noopener noreferrer" title="WhatsApp Contact" className="w-10 h-10 rounded-full bg-black border border-[#F5BD02]/50 flex items-center justify-center text-[#F5BD02]">
+                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                </a>
+              </div>
+
             </div>
 
           </div>

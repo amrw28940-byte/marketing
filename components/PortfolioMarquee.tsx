@@ -73,12 +73,14 @@ export default function PortfolioMarquee() {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
+              title={`زيارة موقع ${project.name}`}
               className="relative w-80 h-52 rounded-2xl bg-[#0a0a0a] border border-[#F5BD02]/50 shadow-[0_0_25px_rgba(245,189,2,0.2)] hover:shadow-[0_0_40px_rgba(245,189,2,0.6)] hover:border-[#F5BD02] transition-all duration-300 overflow-hidden group flex flex-col items-center justify-between p-4 flex-shrink-0"
             >
               <div className="relative w-full h-36 rounded-xl overflow-hidden bg-black/50">
                 <Image
                   src={project.image}
-                  alt={project.name}
+                  alt={`صورة مشروع ${project.name}`}
+                  title={project.name}
                   fill
                   className="object-cover group-hover:scale-110 transition duration-500"
                 />
